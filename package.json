@@ -1,0 +1,28 @@
+{
+  "name": "redis-streams-demo",
+  "version": "0.0.1",
+  "description": "Simple redis streams demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoGnedy/redis-streams-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoGnedy/redis-streams-demo/issues"
+  },
+  "homepage": "https://github.com/MoGnedy/redis-streams-demo#readme",
+  "engines": {
+    "node": "^14.17.3",
+    "npm": "^7.19.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  }
+}
