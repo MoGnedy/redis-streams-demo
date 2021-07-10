@@ -26,6 +26,7 @@
     "nodemon": "^2.0.11"
   },
   "dependencies": {
+    "joi": "^17.4.0",
     "redis-fast-driver": "^2.1.5"
   }
 }
