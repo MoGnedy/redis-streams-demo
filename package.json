@@ -12,7 +12,7 @@
     "url": "git+https://github.com/MoGnedy/redis-streams-demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mohamed Gnedy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MoGnedy/redis-streams-demo/issues"
@@ -24,5 +24,8 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.11"
+  },
+  "dependencies": {
+    "redis-fast-driver": "^2.1.5"
   }
 }
