@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "test": "NODE_ENV='test' jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MoGnedy/redis-streams-demo.git"
   },
   "keywords": [],
-  "author": "Mohamed Gnedy",
+  "author": {
+    "name": "Mohamed Gnedy",
+    "email": "mognedy@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MoGnedy/redis-streams-demo/issues"
@@ -26,6 +30,9 @@
     "nodemon": "^2.0.11"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "faker": "^5.5.3",
+    "jest": "^27.0.6",
     "joi": "^17.4.0",
     "redis-fast-driver": "^2.1.5"
   }
